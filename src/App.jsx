@@ -594,9 +594,14 @@ const ProductivityApp = () => {
             </button>
             <div className="flex items-center space-x-3">
               <TrendingUp className="text-cyan-400 animate-pulse" size={32} />
-              <h1 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 drop-shadow-lg animate-pulse">
-                PRODUCTIVITY HUB
-              </h1>
+              <div>
+                <h1 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 drop-shadow-lg animate-pulse">
+                  GENEXUS
+                </h1>
+                <p className="text-xs font-semibold text-cyan-400/80 italic tracking-wide">
+                  Where Time Becomes Flexible
+                </p>
+              </div>
             </div>
           </div>
           
